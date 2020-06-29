@@ -4,6 +4,7 @@
   <h1 align="center">:brazil: +500 Comandos Linux :brazil:</h1></br>
 </p>
 
+## ➤ Tabela de comandos
 
 | Comando | Descrição |
 |---------|--------|
@@ -36,4 +37,27 @@
 | `bg` | *listar trabalhos parados / segundo plano* |
 | `fg` | *traz o trabalho mais recente para o primeiro plano* |
 | `fg [nome_processo]` | *traz o trabalho para o primeiro plano* |
-| `chmod [valores_octal] [nome_arquivo]` | *mudar as permissões de um arquivo* |
+| `chmod [valores_octal] [nome_arquivo]` | *mudar as permissões de um arquivo* <details><summary>📖 saber mais</summary><br />
+
+## ➤ Tabela
+
+* [➤ Tabela 1](#-installation)
+
+</details> |
+
+## ➤ Exemplos do modo octal
+
+| Valor Octal | Valor Binário rwx | Caracteres | Significado |
+|---------|--------|--------|--------|
+| 0 | 000 | --- | *nenhuma permissão de acesso* |
+| 1 | 001 | --x | *permissão de execução* |
+| 2 | 010 | -w- | *permissão de gravação* |
+| 3 | 011 | -wx | *permissão de gravação e execução* |
+| 4 | 100 | r-- | *permissão de leitura* |
+| 5 | 101 | r-x | *permissão de leitura e execução* |
+| 6 | 110 | rw- | *permissão de leitura e gravaço* |
+| 7 | 111 | rwx | *permissão de leitura, gravação e execução* |
+
+## ➤ Referências
+
+- [chmod | Guia Linux](https://guialinux.uniriotec.br/chmod/)
