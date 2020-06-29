@@ -1,7 +1,7 @@
 <p align="center">
  <img src="https://user-images.githubusercontent.com/22691244/85969179-4b25e480-b99d-11ea-90cf-bf50b805a626.jpg"  width="150"/>
 <br />
-  <h1>:brazil: +500 Comandos Linux :brazil:</h1></br>
+  <h1 align="center">:brazil: +500 Comandos Linux :brazil:</h1></br>
 </p>
 
 
