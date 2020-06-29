@@ -38,6 +38,7 @@
 | `fg` | *traz o trabalho mais recente para o primeiro plano* |
 | `fg [nome_processo]` | *traz o trabalho para o primeiro plano* |
 | `chmod [valores_octal] [nome_arquivo]` | *mudar as permissões de um arquivo [➤ saber mais](#-exemplos-do-modo-octal)* |
+| `ssh [nome_usuário]@host` | *conecta ao host como usuário* |
 
 ## ➤ Exemplos do modo octal
 
