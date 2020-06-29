@@ -49,6 +49,8 @@
 | `fg [nome_processo]` | *traz o trabalho para o primeiro plano* |
 | `chmod [valores_octal] [nome_arquivo]` | *mudar as permissões de um arquivo [➤ saber mais](#-exemplos-do-modo-octal)* |
 | `ssh [nome_usuário]@host` | *conecta ao host como usuário* |
+| `ssh -p [numero_porta] [nome_usuario]@host` | *conecta ao host na porta especificada* |
+| `ssh-copy-id [nome_usuario@host]` | *adiciona a sua chave para o host e usuário daquele host; serve para ativar logins sem senha com uso de chaves* |
 
 ## ➤ Exemplos do modo octal
 
@@ -66,3 +68,4 @@
 ## ➤ Referências
 
 - [chmod | Guia Linux](https://guialinux.uniriotec.br/chmod/)
+- [Guia comandos do Linux](https://www.linuxpro.com.br/dl/guia_500_comandos_Linux.pdf)
