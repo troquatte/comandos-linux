@@ -37,13 +37,7 @@
 | `bg` | *listar trabalhos parados / segundo plano* |
 | `fg` | *traz o trabalho mais recente para o primeiro plano* |
 | `fg [nome_processo]` | *traz o trabalho para o primeiro plano* |
-| `chmod [valores_octal] [nome_arquivo]` | *mudar as permissões de um arquivo* <details><summary>📖 saber mais</summary><br />
-
-## ➤ Tabela
-
-* [➤ Tabela 1](#-installation)
-
-</details> |
+| `chmod [valores_octal] [nome_arquivo]` | *mudar as permissões de um arquivo [➤ saber mais](#-exemplos-do-modo-octal)* |
 
 ## ➤ Exemplos do modo octal
 
