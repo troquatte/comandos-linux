@@ -69,7 +69,17 @@
 | `free` | *exibir uso da memória e swap* |
 | `whereis [nome_programa]` | *exibir localização do aplicativo* |
 | `which [nome_programa]` | *exibe que a aplicação irá rodar por omissão* |
-| `tar cf [nome_pacote.tar] [nome_arquivo]` | *criar pacote TAR com os arquivos especificados* |
+| `tar cf [nome_pacote.tar] [nome_arquivos]` | *criar pacote TAR com os arquivos especificados* |
+| `tar xf [nome_pacote.tar]` | *extrair arquivos do pacote* |
+| `tar czf [nome_pacote.tar.gz] [nome_arquivos]` | *criar um pacote TAR com compressão GZip* |
+| `tar xzf [nome_pacote.tar.gz]` | *extrair um pacote TAR com compressão GZip* |
+| `tar cjf [nome_pacote.tar.bz2]` | *criar um pacote TAR com compressão BZip2* |
+| `tar xjf [nome_pacote.tar.bz2]` | *extrair um pacote TAR com compressão BZip2* |
+| `gzip [nome_arquivo]` | *compactar um arquivo e o renomeia para nome_arquivo.gz* |
+| `gzip -d [nome_arquivo.gz]` | *descompactar nome_arquivo.gz para um arquivo* |
+| `ping [site_ou_numip]` | *envia um pacote ICMP para o host e exibe o resultado* |
+| `whois [site_ou_numip]` | *retornar informações sobre o domínio* |
+| `dig [site_ou_numip]` | *retornar informações de DNS para o domínio* |
 
 ## ➤ Exemplos do modo octal
 
