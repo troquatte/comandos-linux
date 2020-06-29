@@ -11,3 +11,7 @@
 | `man [qualquer_comando`] | *manual do comando* |
 | `ls` | *lista de arquivos / diretórios* |
 | `ls -la` | *lista arquivos / diretórios incluindo ocultos* |
+| `cd [diretorio]` | *muda para o diretório especificado* |
+| `cd` | *muda para o diretório /home* |
+| `pwd` | *exibe o diretório atual* |
+| `mkdir [nome_diretorio]` | *cria um diretório* |
