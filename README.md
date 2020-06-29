@@ -69,3 +69,7 @@
 
 - [chmod | Guia Linux](https://guialinux.uniriotec.br/chmod/)
 - [Guia comandos do Linux](https://www.linuxpro.com.br/dl/guia_500_comandos_Linux.pdf)
+
+## ➤ License
+	
+Licença [MIT](https://github.com/carloskotacho/comandos-linux/blob/master/LICENSE).
