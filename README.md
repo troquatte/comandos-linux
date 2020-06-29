@@ -50,7 +50,7 @@
 | 3 | 011 | -wx | *permissão de gravação e execução* |
 | 4 | 100 | r-- | *permissão de leitura* |
 | 5 | 101 | r-x | *permissão de leitura e execução* |
-| 6 | 110 | rw- | *permissão de leitura e gravaço* |
+| 6 | 110 | rw- | *permissão de leitura e gravação* |
 | 7 | 111 | rwx | *permissão de leitura, gravação e execução* |
 
 ## ➤ Referências
