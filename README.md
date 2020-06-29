@@ -9,7 +9,7 @@
  <a href="https://github.com/carloskotacho/comandos-linux/graphs/contributors">
   <img src="https://img.shields.io/github/stars/carloskotacho/comandos-linux?color=%23fedb3d&label=colaboradores&style=flat-square" alt="Github Contributors">
  </a>
- <a href="https://github.com/carloskotacho/comandos-linux/blob/master/LICENSE">
+ <a href="https://github.com/carloskotacho/comandos-linux/stargazers">
   <img src="https://img.shields.io/github/stars/carloskotacho/comandos-linux?color=%23fedb3d&style=flat-square" alt="Github Stars">
  </a>
 </p>
