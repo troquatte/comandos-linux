@@ -48,9 +48,28 @@
 | `fg` | *traz o trabalho mais recente para o primeiro plano* |
 | `fg [nome_processo]` | *traz o trabalho para o primeiro plano* |
 | `chmod [valores_octal] [nome_arquivo]` | *mudar as permissões de um arquivo [➤ saber mais](#-exemplos-do-modo-octal)* |
-| `ssh [nome_usuário]@host` | *conecta ao host como usuário* |
-| `ssh -p [numero_porta] [nome_usuario]@host` | *conecta ao host na porta especificada* |
-| `ssh-copy-id [nome_usuario@host]` | *adiciona a sua chave para o host e usuário daquele host; serve para ativar logins sem senha com uso de chaves* |
+| `ssh [nome_usuário]@host` | *conectar ao host como usuário* |
+| `ssh -p [numero_porta] [nome_usuario]@host` | *conectar ao host na porta especificada* |
+| `ssh-copy-id [nome_usuario@host]` | *adicionar a sua chave para o host e usuário daquele host; serve para ativar logins sem senha com uso de chaves* |
+| `grep [sequencia_arquivos]` | *pesquisar pela sequência nos arquivos* |
+| `grep -r [sequencia_diretorios]` | *pesquisar recursivamente pela sequência no diretório* |
+| `[nome_comando] | grep [sequencia]` | *pesquisar pela sequência na saída do comando* |
+| `locate [nome_arquivo]` | *encontrar instâncias de um arquivo* |
+| `date` | *exibir hora / data atual* |
+| `cal` | *exibir calendario do mês atual* |
+| `uptime` | *exibir tempo de atividade do sistema* |
+| `w` | *exibir quem está online* |
+| `whoami` | *exibir como quem você está logado* |
+| `finger` | *exibir informações do usuário* |
+| `uname -a` | *exibir informações do kernel* |
+| `cat /porc/cpuinfo` | *exibir informações CPU* |
+| `cat /proc/meminfo` | *exibir informações da memória* |
+| `df` | *exibir uso de disco* |
+| `du` | *exibir uso do espaço em um diretório* |
+| `free` | *exibir uso da memória e swap* |
+| `whereis [nome_programa]` | *exibir localização do aplicativo* |
+| `which [nome_programa]` | *exibe que a aplicação irá rodar por omissão* |
+| `tar cf [nome_pacote.tar] [nome_arquivo]` | *criar pacote TAR com os arquivos especificados* |
 
 ## ➤ Exemplos do modo octal
 
