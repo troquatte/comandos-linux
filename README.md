@@ -12,7 +12,7 @@
 | `ls` | *listar arquivos / diretórios* |
 | `ls -la` | *listar arquivos / diretórios incluindo ocultos* |
 | `cd [diretorio]` | *mudar para o diretório especificado* |
-| `cd` | *mudar para o diretório /home* |
+| `cd` | *mudar para o diretório **/home*** |
 | `pwd` | *exibe o diretório atual* |
 | `mkdir [nome_diretorio]` | *criar um diretório* |
 | `rm [nome_arquivo]` | *remover um arquivo* |
@@ -21,4 +21,19 @@
 | `rm -rf [nome_diretorio]` | *forçar remoção de um diretório* |
 | `cp -r [nome_arquivo_1] [nome_arquivo_2]` | *copiar o **arquivo 1** para o **arquivo 2*** |
 | `cp -r [nome_diretorio_1] [nome_diretorio_2]` | *copiar o **diretório 1** para o **diretório 2**; cria o **diretório 2** caso não exista.* |
-
+| `mv [nome_arquivo_1] [nome_arquivo_2]` | *renomear / mover **arquivo 1** para o **arquivo 2*** |
+| `ln -s [nome_arquivo] [nome_link]` | *criar um link(atalho) simbólico para o arquivo* |
+| `touch [nome_arquivo]` | *criar / atualizar o arquivo* |
+| `cat > [nome_arquivo]` | *direcionar a entrada padrão para um arquivo* |
+| `more [nome_arquivo]` | *exibir o conteúdo de um arquivo* |
+| `head [nome_arquivo]` | *exibir as **primeiras** 10 linhas de um arquivo* |
+| `tail [nome_arquivo]` | *exibir as **últimas** 10 linhas de um arquivo* |
+| `tail -f [nome_arquivo]` | *exibir o conteúdo de um arquivo enquanto ele é atualizado, iniciando com as últimas 10 linhas* |
+| `ps` | *exibir processos dos usuários ativos* |
+| `top` | *exibir todos os processos* |
+| `kill [pid]` | *matar um processo específico pelo ID* |
+| `killall [nome_processo]` | *matar todos os processos com o nome especificado* |
+| `bg` | *listar trabalhos parados / segundo plano* |
+| `fg` | *traz o trabalho mais recente para o primeiro plano* |
+| `fg [nome_processo]` | *traz o trabalho para o primeiro plano* |
+| `chmod [valores_octal] [nome_arquivo]` | *mudar as permissões de um arquivo* |
