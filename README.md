@@ -4,7 +4,13 @@
 <h1 align="center">:brazil: +500 Comandos Linux :brazil:</h1>
 <p align="center">
  <a href="https://github.com/carloskotacho/comandos-linux/blob/master/LICENSE">
-  <img src="https://img.shields.io/github/license/carloskotacho/comandos-linux?color=%23FFB900&label=licen%C3%A7a&style=flat-square" alt="Github License">
+  <img src="https://img.shields.io/github/license/carloskotacho/comandos-linux?color=%23fedb3d&label=licen%C3%A7a&style=flat-square" alt="Github License">
+ </a>
+ <a href="https://github.com/carloskotacho/comandos-linux/graphs/contributors">
+  <img src="https://img.shields.io/github/stars/carloskotacho/comandos-linux?color=%23fedb3d&label=colaboradores&style=flat-square" alt="Github Contributors">
+ </a>
+ <a href="https://github.com/carloskotacho/comandos-linux/blob/master/LICENSE">
+  <img src="https://img.shields.io/github/stars/carloskotacho/comandos-linux?color=%23fedb3d&style=flat-square" alt="Github Stars">
  </a>
 </p>
 
