@@ -1,7 +1,11 @@
 <p align="center">
  <img src="https://user-images.githubusercontent.com/22691244/85969179-4b25e480-b99d-11ea-90cf-bf50b805a626.jpg"  width="150"/>
-<br />
-  <h1 align="center">:brazil: +500 Comandos Linux :brazil:</h1></br>
+</p>
+<h1 align="center">:brazil: +500 Comandos Linux :brazil:</h1>
+<p align="center">
+ <a href="https://github.com/carloskotacho/comandos-linux/blob/master/LICENSE">
+  <img src="https://img.shields.io/github/license/carloskotacho/comandos-linux?color=%23FFB900&label=licen%C3%A7a&style=flat-square" alt="Github License">
+ </a>
 </p>
 
 ## ➤ Tabela de comandos
