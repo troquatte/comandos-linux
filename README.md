@@ -19,7 +19,7 @@
 | Comando | Descrição |
 |---------|--------|
 |`[qualquer_comando] -help` | *descrição do comando* |
-| `man [qualquer_comando`] | *manual do comando* |
+| `man [qualquer_comando]` | *manual do comando* |
 | `ls` | *listar arquivos / diretórios* |
 | `ls -la` | *listar arquivos / diretórios incluindo ocultos* |
 | `cd [diretorio]` | *mudar para o diretório especificado* |
@@ -89,6 +89,204 @@
 | `make install` | *comando de instaladores* |
 | `dpkg -i [nome_pacote].deb` | *instalar pacotes DEB* |
 | `rpm -Uvh [nome_pacote].rpm` | *instalar um pacote RPM* |
+
+<details>
+<summary>📖 Mais comandos - Avançados</summary>
+<br />
+
+| Comando | Descrição |
+|---------|--------|
+|`arc` | *exibe a arquitetura da máquina* |
+| `uname -m` | *exibe a arquitetura da máquina* |
+| `uname -r` | *versão do kernel* |
+| `dmidecode -q` | *exibir componentes do hardware* |
+| `hdparm -i /dev/hda` | *exibir as carecterísticas de um disco rígido* |
+| `hdparm -tT /dev/das` | *executar testes de leitura em um disco rígido* |
+| `cat /proc/cpuinfo` | *informações CPU* |
+| `cat /proc/interrupts` | *exibir interrupçes* |
+| `cat /proc/meminfo` | *verificar a utilização de memória* |
+| `cat /proc/swaps:df -h` | *exibir tamanho de arquivos / diretórios ordenados por tamanho* |
+| `ls -lSr | more` | *estima o espaço usado pelo diretório 'dir1'* |
+| `du -sh [nome_diretorio]` | *exibe tamanho dos arquivos / diretórios ordenados por tamanho* |
+| `du -sk * | sort -rn` | *exibir espaço usado por pacotes RPM instalados e organizados pelo tamanho (Fedora, Red Hat, etc)* |
+| `rpm -q -a –qf ‘%10{SIZE}t%{NAME}n’ | sort -k1,1n` | *exibe o espaço usado por pacotes instalados, organizado pelo tamanho (Debian, Ubuntu, etc)* |
+| `dpkg-query -W -f=’${Installed-Size;10}t${Package}n’ | sort -k1,1n` | *exibe arquivos de swap* |
+| `cat /proc/version` | *versão do kernel* |
+| `cat /proc/net/dev` | *exibir estatísticas e adaptadores de rede* |
+| `cat /proc/mounts` | *exibir o sistema de arquivos montados* |
+| `lspci -tv` | *exibir dispositivos PCI* |
+| `lsusb -tv` | *exibir dispositivos USB* |
+| `cal [ano]` | *exibir o calendario do ano específicado* |
+| `cal [mes] [ano]` | *exibir o calendario do mês e ano específicado* |
+| `date 041217002016.00` | *coloca (estado, ajustar) data e hora* |
+| `clock -w` | *salvar alterações para a data na BIOS* |
+
+</details>
+
+<details>
+<summary>📖 Mais comandos - Reinicialização do sistema ou logout</summary>
+<br />
+
+
+</details>
+
+<details>
+<summary>📖 Mais comandos - Arquivos e diretórios</summary>
+<br />
+
+
+</details>
+
+
+<details>
+<summary>📖 Mais comandos - Encontrar arquivos</summary>
+<br />
+
+
+</details>
+
+<details>
+<summary>📖 Mais comandos - Sistema de arquivos</summary>
+<br />
+
+
+</details>
+
+<details>
+<summary>📖 Mais comandos - Espaço em disco</summary>
+<br />
+
+
+</details>
+
+<details>
+<summary>📖 Mais comandos - Usuários e grupos</summary>
+<br />
+
+
+</details>
+
+<details>
+<summary>📖 Mais comandos - Permissões de arquivos</summary>
+<br />
+
+
+</details>
+
+<details>
+<summary>📖 Mais comandos - Atributos especiais de arquivo: (+ = Adiciona e - = Remove permissões)</summary>
+<br />
+
+
+</details>
+
+<details>
+<summary>📖 Mais comandos - Arquivos e arquivos compactados</summary>
+<br />
+
+
+</details>
+
+<details>
+<summary>📖 Mais comandos - Pacotes RPM (Red Hat, Fedora e derivados)</summary>
+<br />
+
+
+</details>
+
+<details>
+<summary>📖 Mais comandos - Pacotes YUM Updater (Red Hat, Fedora e derivados)</summary>
+<br />
+
+
+</details>
+
+<details>
+<summary>📖 Mais comandos - Pacotes DEB (Debian, Ubuntu e derivados)</summary>
+<br />
+
+
+</details>
+
+
+<details>
+<summary>📖 Mais comandos - Atualizador de pacotes APT (Debian, Ubuntu e derivados)</summary>
+<br />
+
+</details>
+
+<details>
+<summary>📖 Mais comandos - Exibir o conteúdo de um arquivo</summary>
+<br />
+
+</details>
+
+<details>
+<summary>📖 Mais comandos - Manipulação de texto</summary>
+<br />
+
+</details>
+
+<details>
+<summary>📖 Mais comandos - Estabelecer o formato de conversão de arquivos</summary>
+<br />
+
+</details>
+
+<details>
+<summary>📖 Mais comandos - Análise de sistemas de arquivos</summary>
+<br />
+
+</details>
+
+<details>
+<summary>📖 Mais comandos - Formatar sistemas de arquivos</summary>
+<br />
+
+</details>
+
+<details>
+<summary>📖 Mais comandos - Backups</summary>
+<br />
+
+</details>
+
+
+<details>
+<summary>📖 Mais comandos - CD-ROM</summary>
+<br />
+
+</details>
+
+<details>
+<summary>📖 Mais comandos - Redes (LAN e Wi-Fi)</summary>
+<br />
+
+</details>
+
+<details>
+<summary>📖 Mais comandos - Redes Microsoft Windows (SAMBA)</summary>
+<br />
+
+</details>
+
+<details>
+<summary>📖 Mais comandos - Firewall (iptables)</summary>
+<br />
+
+</details>
+
+<details>
+<summary>📖 Mais comandos - Monitoramento e depuração</summary>
+<br />
+
+</details>
+
+<details>
+<summary>📖 Mais comandos - Dicas e comandos úteis</summary>
+<br />
+
+</details>
 
 ## ➤ Exemplos do modo octal
 
