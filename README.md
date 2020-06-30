@@ -80,6 +80,15 @@
 | `ping [site_ou_numip]` | *envia um pacote ICMP para o host e exibe o resultado* |
 | `whois [site_ou_numip]` | *retornar informações sobre o domínio* |
 | `dig [site_ou_numip]` | *retornar informações de DNS para o domínio* |
+| `ListAllCommands | grep searchstr` | *instalação a partir do código fonte* |
+| `dig -x [site_ou_ip]` | *exibir retorno reverso para um host* |
+| `wget [endereço_arquivo]` | *faz download do arquivo espicíficado* |
+| `wget -c [endereco_arquivo]` | *continuar download interrompido* |
+| `./configure	` | *comando de instaladores* |
+| `make` | *comando de instaladores* |
+| `make install` | *comando de instaladores* |
+| `dpkg -i [nome_pacote].deb` | *instalar pacotes DEB* |
+| `rpm -Uvh [nome_pacote].rpm` | *instalar um pacote RPM* |
 
 ## ➤ Exemplos do modo octal
 
