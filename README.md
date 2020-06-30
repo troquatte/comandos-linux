@@ -47,7 +47,7 @@
 | `bg` | *listar trabalhos parados / segundo plano* |
 | `fg` | *traz o trabalho mais recente para o primeiro plano* |
 | `fg [nome_processo]` | *traz o trabalho para o primeiro plano* |
-| `chmod [valores_octal] [nome_arquivo]` | *mudar as permissões de um arquivo [➤ saber mais](#-exemplos-do-modo-octal)* |
+| `chmod [valores_octal] [nome_arquivo]` | *mudar as permissões de um arquivo [➤ sistema octal](#-exemplos-do-modo-octal)* |
 | `ssh [nome_usuário]@host` | *conectar ao host como usuário* |
 | `ssh -p [numero_porta] [nome_usuario]@host` | *conectar ao host na porta especificada* |
 | `ssh-copy-id [nome_usuario@host]` | *adicionar a sua chave para o host e usuário daquele host; serve para ativar logins sem senha com uso de chaves* |
