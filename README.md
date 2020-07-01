@@ -96,7 +96,7 @@
 
 | Comando | Descrição |
 |---------|--------|
-|`arc` | *exibe a arquitetura da máquina* |
+| `arc` | *exibe a arquitetura da máquina* |
 | `uname -m` | *exibe a arquitetura da máquina* |
 | `uname -r` | *versão do kernel* |
 | `dmidecode -q` | *exibir componentes do hardware* |
