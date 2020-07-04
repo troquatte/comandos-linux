@@ -128,6 +128,21 @@
 
 <details>
 <summary>📖 Mais comandos - Reinicialização do sistema ou logout</summary>
+	
+
+| Comando | Descrição |
+|---------|--------|
+| `shutdown -h now` | *desligar o sistema* |
+| `shutdown -h [minutos]` | *desligar o sistema de acordo com minutos definido* |
+| `init 0` | *desligar o sistema* |
+| `telinit 0` | *desligar o sistema* |
+| `halt` | *desligar o sistema* |
+| `shutdown -r [mensagem]` | *desligar o sistema e enviar uma mensagem* |
+| `shutdown -c` | *cancelar desligamento do sistema planejado* |
+| `shutdown -r now` | *reiniciar o sistema* |
+| `reboot` | *reiniciar o sistema* |
+| `logout` | *fechar sessão* |
+
 <br />
 
 
