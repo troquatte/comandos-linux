@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/github/license/carloskotacho/comandos-linux?color=%23fedb3d&label=licen%C3%A7a&style=flat-square" alt="Github License">
  </a>
  <a href="https://github.com/carloskotacho/comandos-linux/graphs/contributors">
-  <img src="https://img.shields.io/github/stars/carloskotacho/comandos-linux?color=%23fedb3d&label=colaboradores&style=flat-square" alt="Github Contributors">
+  <img src="https://img.shields.io/github/contributors/carloskotacho/comandos-linux?color=%23fedb3d&label=colaboradores&style=flat-square" alt="Github Contributors">
  </a>
  <a href="https://github.com/carloskotacho/comandos-linux/stargazers">
   <img src="https://img.shields.io/github/stars/carloskotacho/comandos-linux?color=%23fedb3d&style=flat-square" alt="Github Stars">
