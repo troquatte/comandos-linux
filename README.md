@@ -128,7 +128,7 @@
 
 <details>
 <summary>📖 Mais comandos - Reinicialização do sistema ou logout</summary>
-	
+<br />
 
 | Comando | Descrição |
 |---------|--------|
@@ -143,15 +143,49 @@
 | `reboot` | *reiniciar o sistema* |
 | `logout` | *fechar sessão* |
 
-<br />
-
-
 </details>
 
 <details>
 <summary>📖 Mais comandos - Arquivos e diretórios</summary>
 <br />
 
+| Comando | Descrição |
+|---------|--------|
+| `cd /home` | *vá para home* |
+| `cd ..` | *voltar 1 nível* |
+| `cd ../..` | *voltar 2 níveis* |
+| `cd` | *vá para diretório raiz* |
+| `cd ~[nome_usuário]` | *vá para diretório do usuário especificado* |
+| `cd -` | *voltar para o diretório anterior* |
+| `pwd` | *exibir o diretório corrente* |
+| `ls` | *consultar arquivos em um diretório* |
+| `ls -F` | *consultar arquivos em um diretório* |
+| `ls -l` | *exibir detalhes de arquivos/pastas em um diretório* |
+| `ls -a` | *exibir arquivos ocultos* |
+| `ls *[0-9]*` | *exibir arquivos/pastas que contêm números* |
+| `tree` | *exibir arquivos/pastas em uma árvore a partir da raíz (1)* |
+| `lstree` | *exibir arquivos/pastas em uma árvore a partir da raiz (2)* |
+| `mkdir [nome_diretorio]` | *criar uma pasta/diretório com o nome específicado* |
+| `mkdir [nome_diretorio1] [nome_diretorio2]` | *criar duas pastas/diretórios simultaneamente* |
+| `mkdir -p /tmp/dir1/dir2` | *criar uma árvore de diretórios* |
+| `rm -f [nome_arquivo]` | *excluir o arquivo específicado* |
+| `rmdir [nome_pasta]` | *excluir a pasta específicada* |
+| `rm -rf [nome_diretorio]` | *excluir a pasta específicada e seu conteúdo forçadamente* |
+| `rm -rf [nome_diretorio1] [nome_diretorio2]` | *exluir duas pastas/diretórios com o seu conteúdo forçadamente* |
+| `mv [nome_diretorio1] [nome_novo_diretorio]` | *renomeiar/mover um arquivo/pasta* |
+| `cp [nome_arquivo]` | *copiar um arquivo* |
+| `cp [nome_arquivo1] [nome_arquivo2]` | *copiar os dois arquivos ao mesmo tempo* |
+| `cp dir /*.` | *copiar todos os arquivos de um diretório dentro do diretório de trabalho atual* |
+| `cp -a /tmp/dir1` | *copiar um diretório dentro do diretório de trabalho atual* |
+| `cp -a [nome_diretorio]` | *copiar um diretório* |
+| `cp -a [nome_diretorio1] [nome_diretorio2]` | *copiar diretório1 para diretório2* |
+| `ln -s [nome_arquivo1] [nome_link]` | *criar um link simbólico para o arquivo/diretório* |
+| `ln [nome_arquivo1] [nome_link]` | *criar um vínculo físico para o arquivo/diretório* |
+| `touch -t 0712250000 [nome_arquivo]` | *modificar o tempo real (tempo de criação) de um arquivo ou diretório.* |
+| `file [nome_arquivo]` | *saída do tipo mime de um arquivo de texto* |
+| `iconv -l` | *lista de cifras conhecidas* |
+| `iconv -f fromEncoding -t toEncoding inputFile > outputFile` | *criar uma nova forma de arquivo de entrada assumindo que está codificado em fromEncoding e converte para ToEncoding.* |
+| `find . -maxdepth 1 -name *.jpg -print -exec convert ”{}” -resize 80×60 “thumbs/{}” \;` | *agrupar arquivos dimensionados no diretório atual e os envia aos diretórios de visualização em miniaturas (requer o conversor do ImagemagicK).* |
 
 </details>
 
@@ -323,6 +357,7 @@
 
 - [chmod | Guia Linux](https://guialinux.uniriotec.br/chmod/)
 - [Guia comandos do Linux](https://www.linuxpro.com.br/dl/guia_500_comandos_Linux.pdf)
+- [Explain shell](https://explainshell.com/explain?cmd=cp+-r+%2Fdir1+%2Fdir2#)
 
 ## ➤ License
 	
