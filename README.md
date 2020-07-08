@@ -200,10 +200,10 @@
 |`find / -user [nome_usuario]` | *encontrar arquivos/diretórios pertencentes ao usuário específicado* |
 |`find /home/user1 -name \*.bin` | *procurar arquivos com extensão **.bin** no diretório específicado* |
 |`find /usr/bin -type f -atime +100` | *pesquisar arquivos binários não utilizados nos **últimos 100 dias*** |
-|`find /usr/bin -type f -mtime -10` | *pesquisar arquivos criados/alterados nos **últimos 10 dias** |
+|`find /usr/bin -type f -mtime -10` | *pesquisar arquivos criados/alterados nos **últimos 10 dias*** |
 |`find / -name \*.rpm -exec chmod 755 ‘{}’ \;` | *procurar arquivos com extensão **.rpm** e modificar permissões* |
 |`find / -xdev -name \*.rpm` | *procurar arquivos com extensão **.rpm** ignorando a mídia removível (pen-drive, cd-rom, etc)* |
-|`locate \*.ps` | *encontrar arquivos com a extensão **.ps** primeiramente executado com o comando **updatedb** * |
+|`locate \*.ps` | *encontrar arquivos com a extensão **.ps** primeiramente executado com o comando **updatedb*** |
 |`whereis halt` | *exibir localização de um arquivo binário* |
 |`which halt` | *exibir caminho completo para um binário/executável* |
 
